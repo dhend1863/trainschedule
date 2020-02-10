@@ -1,4 +1,4 @@
-var config = {
+var firebaseConfig = {
   apiKey: "AIzaSyDBj_Kz6xmxE3PuoBoEeZAkwjXf3pWSyck",
   authDomain: "trainscheduler-75f64.firebaseapp.com",
   databaseURL: "https://trainscheduler-75f64.firebaseio.com",
@@ -8,7 +8,8 @@ var config = {
   appId: "1:917992167839:web:7e1eb77660dab3e15d05aa"
 };
 // Initialize Firebase
-firebase.initializeApp(config);
+firebase.initializeApp(firebaseConfig);
+
 var database = firebase.database();
 
   // Capture Button Click
