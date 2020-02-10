@@ -1,16 +1,14 @@
-
-$(document).ready(function(){
-
 var config = {
   apiKey: "AIzaSyDBj_Kz6xmxE3PuoBoEeZAkwjXf3pWSyck",
   authDomain: "trainscheduler-75f64.firebaseapp.com",
   databaseURL: "https://trainscheduler-75f64.firebaseio.com",
+  projectId: "trainscheduler-75f64",
   storageBucket: "trainscheduler-75f64.appspot.com",
   messagingSenderId: "917992167839",
+  appId: "1:917992167839:web:7e1eb77660dab3e15d05aa"
 };
 // Initialize Firebase
 firebase.initializeApp(config);
-
 var database = firebase.database();
 
   // Capture Button Click
@@ -85,7 +83,6 @@ var database = firebase.database();
 
 
 
-  });
 
 
 
